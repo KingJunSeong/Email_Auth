@@ -17,6 +17,7 @@ namespace Email_Auth
             if (IsVaildEmail(textBox1.Text) == true)
             {
                 textBox2.Enabled = true;
+                button2.Enabled = true;
             }
             else
             {
@@ -78,6 +79,7 @@ namespace Email_Auth
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox2.Enabled = false;
+            button2.Enabled = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
