@@ -18,6 +18,7 @@ namespace Email_Auth
             {
                 textBox2.Enabled = true;
                 button2.Enabled = true;
+                SendEmail(textBox1.Text);
             }
             else
             {
